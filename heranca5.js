@@ -17,6 +17,6 @@ console.log(['a', 'b', 'c'].first())
 
 String.prototype.toString = function () {
     return 'Lascou tudo'
-}
+} //Evitar sempre fazer isso, pois irá causar uma catástrofe no escopo global
 
-console.log('Escola Cod3r'.reverse())
+console.log('Escola Cod3r'.reverse());
